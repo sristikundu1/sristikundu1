@@ -31,7 +31,23 @@
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=sristikundu1&" alt="sristikundu1" />
 </div>
 
+## Projects
+### Project 1: ElysianWardrobe
+<div style="text-align: center;">
+  <a href="[Link to live project](https://elysian-wardrobe.web.app/)">Live Link</a> |
+  <a href="[Link to client-side GitHub repository](https://github.com/sristikundu1/Fashion-Brand-Website)">Client-side GitHub</a> |
+  <a href="[Link to server-side GitHub repository](https://github.com/sristikundu1/Fashion-Brand-Website-Server-Site)">Server-side GitHub</a>
+</div>
 
+#### About the Project:
+
+- There are 6 brands in this website and each brand have some products.
+- click on a brand user can see all products of that brand and can see details information clicking on a card.
+- user can add to cart from detail page and can see that added item in another page also can delete any product.
+
+#### Technologies Used:
+
+<a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> 
 
 <!--
 **sristikundu1/sristikundu1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
