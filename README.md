@@ -35,8 +35,8 @@
 ### Project 1: ElysianWardrobe
 <div style="text-align: center;">
   <a href="https://elysian-wardrobe.web.app/">Live Link</a> |
-  <a href="[Link to client-side GitHub repository](https://github.com/sristikundu1/Fashion-Brand-Website)">Client-side GitHub</a> |
-  <a href="[Link to server-side GitHub repository](https://github.com/sristikundu1/Fashion-Brand-Website-Server-Site)">Server-side GitHub</a>
+  <a href="https://github.com/sristikundu1/Fashion-Brand-Website">Client-side GitHub</a> |
+  <a href="https://github.com/sristikundu1/Fashion-Brand-Website-Server-Site">Server-side GitHub</a>
 </div>
 
 #### About the Project:
