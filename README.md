@@ -26,7 +26,11 @@
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=sristikundu1&show_icons=true&locale=en" alt="sristikundu1" /></p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=sristikundu1&" alt="sristikundu1" /></p>
+
+<div align="center">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=sristikundu1&" alt="sristikundu1" />
+</div>
+
 
 
 <!--
