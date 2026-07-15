@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 980" width="100%" role="img" aria-labelledby="title desc" preserveAspectRatio="xMidYMid meet">
+  <title id="title">Sristi Kundu's engineering roadmap</title>
+  <desc id="desc">A two-phase timeline showing current learning and future engineering goals.</desc>
+  <defs>
+    <linearGradient id="current" x2="1" y2="1"><stop stop-color="#00b4d8"/><stop offset="1" stop-color="#0077b6"/></linearGradient>
+    <linearGradient id="future" x2="1" y2="1"><stop stop-color="#0077b6"/><stop offset="1" stop-color="#03045e"/></linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .panel{fill:#03045e;fill-opacity:.58;stroke:#0077b6;stroke-opacity:.55}.label{fill:#fff;font:600 20px system-ui,-apple-system,"Segoe UI",sans-serif}.phase{fill:#fff;font:700 28px system-ui,-apple-system,"Segoe UI",sans-serif;letter-spacing:1px}.path{stroke-dasharray:10 13;animation:flow 7s linear infinite}.node{animation:pulse 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}.node:nth-of-type(2n){animation-delay:.6s}@keyframes flow{to{stroke-dashoffset:-92}}@keyframes pulse{50%{transform:scale(1.12);opacity:.72}}
+      @media(prefers-color-scheme:light){.panel{fill:#fff;fill-opacity:.94}.label{fill:#03045e}.phase.dark{fill:#03045e}}
+      @media(prefers-reduced-motion:reduce){*{animation:none!important}}
+    </style>
+  </defs>
+
+  <rect x="42" y="28" width="816" height="924" rx="32" class="panel"/>
+  <path d="M450 120V860" class="path" fill="none" stroke="#00b4d8" stroke-width="6" stroke-linecap="round"/>
+
+  <g>
+    <rect x="290" y="66" width="320" height="62" rx="31" fill="url(#current)"/>
+    <text x="450" y="107" text-anchor="middle" class="phase">CURRENT</text>
+  </g>
+
+  <g fill="#00b4d8" filter="url(#glow)">
+    <circle class="node" cx="450" cy="180" r="11"/><circle class="node" cx="450" cy="260" r="11"/><circle class="node" cx="450" cy="340" r="11"/><circle class="node" cx="450" cy="420" r="11"/><circle class="node" cx="450" cy="500" r="11"/><circle class="node" cx="450" cy="580" r="11"/><circle class="node" cx="450" cy="660" r="11"/>
+  </g>
+  <g stroke="#0077b6" stroke-width="3" opacity=".8">
+    <path d="M439 180H330"/><path d="M461 260H570"/><path d="M439 340H330"/><path d="M461 420H570"/><path d="M439 500H330"/><path d="M461 580H570"/><path d="M439 660H330"/>
+  </g>
+  <g class="label">
+    <text x="310" y="187" text-anchor="end">Next.js</text><text x="590" y="267">Redux</text><text x="310" y="347" text-anchor="end">TypeScript</text><text x="590" y="427">PostgreSQL</text><text x="310" y="507" text-anchor="end">System Design</text><text x="590" y="587">AI Engineering</text><text x="310" y="667" text-anchor="end">Machine Learning</text>
+  </g>
+
+  <g>
+    <rect x="290" y="708" width="320" height="62" rx="31" fill="url(#future)" stroke="#00b4d8" stroke-opacity=".5"/>
+    <text x="450" y="749" text-anchor="middle" class="phase">FUTURE</text>
+  </g>
+  <g class="label" font-size="18">
+    <text x="120" y="833">Python</text><text x="218" y="833">Docker</text><text x="318" y="833">Kubernetes</text><text x="460" y="833">AWS</text><text x="532" y="833">LLMs</text><text x="615" y="833">MCP</text><text x="690" y="833">AI Agents</text>
+  </g>
+  <g fill="#0077b6"><circle class="node" cx="148" cy="870" r="8"/><circle class="node" cx="244" cy="870" r="8"/><circle class="node" cx="358" cy="870" r="8"/><circle class="node" cx="480" cy="870" r="8"/><circle class="node" cx="552" cy="870" r="8"/><circle class="node" cx="633" cy="870" r="8"/><circle class="node" cx="731" cy="870" r="8"/></g>
+  <path d="M148 870h583" stroke="#0077b6" stroke-width="4" opacity=".55"/>
+</svg>

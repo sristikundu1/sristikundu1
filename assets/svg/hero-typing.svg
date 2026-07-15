@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 90" width="100%" role="img" aria-labelledby="title desc" preserveAspectRatio="xMidYMid meet">
+  <title id="title">Frontend Developer and MERN Stack Enthusiast</title>
+  <desc id="desc">Animated typing text introducing Sristi Kundu's professional role.</desc>
+  <defs>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop stop-color="#00b4d8"/>
+      <stop offset=".55" stop-color="#0077b6"/>
+      <stop offset="1" stop-color="#03045e"/>
+    </linearGradient>
+    <style>
+      .role{font:600 34px system-ui,-apple-system,"Segoe UI",sans-serif;letter-spacing:.5px}
+      .reveal{animation:reveal 5.5s steps(44,end) infinite;transform-origin:right}
+      .cursor{animation:blink .8s step-end infinite}
+      @keyframes reveal{0%,8%{transform:scaleX(1)}65%,88%{transform:scaleX(0)}96%,100%{transform:scaleX(1)}}
+      @keyframes blink{50%{opacity:0}}
+      @media(prefers-color-scheme:dark){.role{fill:#00b4d8}.cover{fill:#0d1117}}
+      @media(prefers-color-scheme:light){.role{fill:url(#accent)}.cover{fill:#fff}}
+      @media(prefers-reduced-motion:reduce){.reveal,.cursor{animation:none}.reveal{transform:scaleX(0)}}
+    </style>
+  </defs>
+  <text class="role" x="450" y="58" text-anchor="middle">Frontend Developer · MERN Stack Enthusiast</text>
+  <rect class="cover reveal" x="62" y="20" width="790" height="52"/>
+  <rect class="cursor" x="842" y="22" width="4" height="44" rx="2" fill="#00b4d8"/>
+</svg>
