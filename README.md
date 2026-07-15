@@ -10,11 +10,11 @@
 
   <h2 align="center">Profile Glimpse ✨</h2>
   <br/>
-- 🔭 I’m currently working on [AuraFeastForge](https://hostel-meal-system.web.app/)
+- 🔭 I’m currently working on [HomeBite](https://homebite-15925.web.app/)
 
-- 🌱 I’m currently learning **Node js, Mongodb**
+- 🌱 I’m currently learning **Next Js, TypeScript**
 
-- 💬 Ask me about **HTML, Tailwind CSS, javascript**
+- 💬 Ask me about **React, Tailwind CSS, javascript**
 
 - 📫 How to reach me **sristikundu2468@gmail.com**
 
