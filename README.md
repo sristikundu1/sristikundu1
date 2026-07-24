@@ -46,29 +46,29 @@ A Frontend Developer from Bangladesh passionate about building clean, modern, an
 <p>Technologies I use to design, build, and ship modern applications.</p>
 
 <p>
-  <img src="https://img.shields.io/badge/JavaScript-03045e?style=flat-square&amp;logo=javascript&amp;logoColor=F7DF1E" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/TypeScript-03045e?style=flat-square&amp;logo=typescript&amp;logoColor=3178C6" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/React-03045e?style=flat-square&amp;logo=react&amp;logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Next.js-03045e?style=flat-square&amp;logo=nextdotjs&amp;logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-03045e?style=flat-square&amp;logo=tailwindcss&amp;logoColor=06B6D4" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/Responsive_Design-03045e?style=flat-square&amp;logo=css3&amp;logoColor=1572B6" alt="Responsive Design" />
+  <img height="28" src="https://img.shields.io/badge/JavaScript-03045e?style=flat-square&amp;logo=javascript&amp;logoColor=F7DF1E" alt="JavaScript" />
+  <img height="28" src="https://img.shields.io/badge/TypeScript-03045e?style=flat-square&amp;logo=typescript&amp;logoColor=3178C6" alt="TypeScript" />
+  <img height="28" src="https://img.shields.io/badge/React-03045e?style=flat-square&amp;logo=react&amp;logoColor=61DAFB" alt="React" />
+  <img height="28" src="https://img.shields.io/badge/Next.js-0077b6?style=flat-square&amp;logo=nextdotjs&amp;logoColor=000000" alt="Next.js" />
+  <img height="28" src="https://img.shields.io/badge/Tailwind_CSS-03045e?style=flat-square&amp;logo=tailwindcss&amp;logoColor=06B6D4" alt="Tailwind CSS" />
+  <img height="28" src="https://img.shields.io/badge/Responsive_Design-03045e?style=flat-square&amp;logo=css&amp;logoColor=1572B6" alt="Responsive Design" />
 </p>
 <p>
-  <img src="https://img.shields.io/badge/Node.js-0077b6?style=flat-square&amp;logo=nodedotjs&amp;logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Express.js-0077b6?style=flat-square&amp;logo=express&amp;logoColor=white" alt="Express.js" />
-  <img src="https://img.shields.io/badge/REST_API-0077b6?style=flat-square&amp;logo=swagger&amp;logoColor=white" alt="REST API" />
-  <img src="https://img.shields.io/badge/Socket.IO-0077b6?style=flat-square&amp;logo=socketdotio&amp;logoColor=white" alt="Socket.IO" />
-  <img src="https://img.shields.io/badge/JWT-0077b6?style=flat-square&amp;logo=jsonwebtokens&amp;logoColor=white" alt="JSON Web Token" />
-  <img src="https://img.shields.io/badge/Stripe-0077b6?style=flat-square&amp;logo=stripe&amp;logoColor=white" alt="Stripe" />
+  <img height="28" src="https://img.shields.io/badge/Node.js-0077b6?style=flat-square&amp;logo=nodedotjs&amp;logoColor=5FA04E" alt="Node.js" />
+  <img height="28" src="https://img.shields.io/badge/Express.js-0077b6?style=flat-square&amp;logo=express&amp;logoColor=000000" alt="Express.js" />
+  <img height="28" src="https://img.shields.io/badge/REST_API-0077b6?style=flat-square&amp;logo=openapiinitiative&amp;logoColor=6BA539" alt="REST API with OpenAPI Initiative logo" />
+  <img height="28" src="https://img.shields.io/badge/Socket.IO-0077b6?style=flat-square&amp;logo=socketdotio&amp;logoColor=010101" alt="Socket.IO" />
+  <img height="28" src="https://img.shields.io/badge/JWT-0077b6?style=flat-square&amp;logo=jsonwebtokens&amp;logoColor=000000" alt="JSON Web Token" />
+  <img height="28" src="https://img.shields.io/badge/Stripe-0077b6?style=flat-square&amp;logo=stripe&amp;logoColor=635BFF" alt="Stripe" />
 </p>
 <p>
-  <img src="https://img.shields.io/badge/MongoDB-03045e?style=flat-square&amp;logo=mongodb&amp;logoColor=47A248" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/PostgreSQL-03045e?style=flat-square&amp;logo=postgresql&amp;logoColor=4169E1" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/Firebase-03045e?style=flat-square&amp;logo=firebase&amp;logoColor=FFCA28" alt="Firebase" />
-  <img src="https://img.shields.io/badge/Git-03045e?style=flat-square&amp;logo=git&amp;logoColor=F05032" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-03045e?style=flat-square&amp;logo=github&amp;logoColor=white" alt="GitHub" />
-  <img src="https://img.shields.io/badge/Figma-03045e?style=flat-square&amp;logo=figma&amp;logoColor=F24E1E" alt="Figma" />
-  <img src="https://img.shields.io/badge/VS_Code-03045e?style=flat-square&amp;logo=visualstudiocode&amp;logoColor=22A7F2" alt="Visual Studio Code" />
+  <img height="28" src="https://img.shields.io/badge/MongoDB-03045e?style=flat-square&amp;logo=mongodb&amp;logoColor=47A248" alt="MongoDB" />
+  <img height="28" src="https://img.shields.io/badge/PostgreSQL-03045e?style=flat-square&amp;logo=postgresql&amp;logoColor=4169E1" alt="PostgreSQL" />
+  <img height="28" src="https://img.shields.io/badge/Firebase-03045e?style=flat-square&amp;logo=firebase&amp;logoColor=FFCA28" alt="Firebase" />
+  <img height="28" src="https://img.shields.io/badge/Git-03045e?style=flat-square&amp;logo=git&amp;logoColor=F05032" alt="Git" />
+  <img height="28" src="https://img.shields.io/badge/GitHub-0077b6?style=flat-square&amp;logo=github&amp;logoColor=181717" alt="GitHub" />
+  <img height="28" src="https://img.shields.io/badge/Figma-03045e?style=flat-square&amp;logo=figma&amp;logoColor=F24E1E" alt="Figma" />
+  <img height="28" src="./assets/svg/tech-vscode.svg" alt="Visual Studio Code" />
 </p>
 
 </section>
@@ -79,11 +79,11 @@ A Frontend Developer from Bangladesh passionate about building clean, modern, an
 
 <p>
   <img height="28" src="./assets/svg/ai-chatgpt.svg" alt="ChatGPT" />
-  <img height="28" src="https://img.shields.io/badge/Claude-0077b6?style=flat-square&amp;logo=claude&amp;logoColor=white" alt="Claude" />
-  <img height="28" src="https://img.shields.io/badge/Codex-0077b6?style=flat-square&amp;logo=openai&amp;logoColor=white" alt="Codex" />
-  <img height="28" src="https://img.shields.io/badge/Gemini-0077b6?style=flat-square&amp;logo=googlegemini&amp;logoColor=white" alt="Gemini" />
-  <img height="28" src="https://img.shields.io/badge/Cursor-0077b6?style=flat-square&amp;logo=cursor&amp;logoColor=white" alt="Cursor" />
-  <img height="28" src="https://img.shields.io/badge/GitHub_Copilot-0077b6?style=flat-square&amp;logo=githubcopilot&amp;logoColor=white" alt="GitHub Copilot" />
+  <img height="28" src="https://img.shields.io/badge/Claude-0077b6?style=flat-square&amp;logo=claude&amp;logoColor=D97757" alt="Claude" />
+  <img height="28" src="./assets/svg/ai-codex.svg" alt="Codex" />
+  <img height="28" src="https://img.shields.io/badge/Gemini-0077b6?style=flat-square&amp;logo=googlegemini&amp;logoColor=8E75B2" alt="Gemini" />
+  <img height="28" src="https://img.shields.io/badge/Cursor-0077b6?style=flat-square&amp;logo=cursor&amp;logoColor=000000" alt="Cursor" />
+  <img height="28" src="https://img.shields.io/badge/GitHub_Copilot-0077b6?style=flat-square&amp;logo=githubcopilot&amp;logoColor=181717" alt="GitHub Copilot" />
 </p>
 
 I use AI as a development partner to accelerate coding, debugging, architecture planning, documentation, and code reviews. Every AI-generated solution is reviewed, tested, validated, and adapted before production.
