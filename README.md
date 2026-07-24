@@ -4,7 +4,7 @@
 
 <img src="./assets/svg/banner.svg" width="100%" alt="Sristi Kundu — frontend developer profile banner" />
 
-# Sristi Kundu
+# Hi, I'm **Sristi Kundu** <img src="./assets/images/waving-hand.gif" width="34" alt="Waving hand" />
 
 <img src="./assets/svg/hero-typing.svg" width="720" alt="Frontend Developer, Full Stack Learner, and AI Engineering Explorer" />
 
@@ -16,7 +16,7 @@
 
 ## About Me
 
-Hi, I'm **Sristi Kundu**, a Frontend Developer from Bangladesh passionate about building clean, modern, and scalable web applications. I enjoy learning new technologies, contributing to open source, and using AI tools to build smarter software.
+A Frontend Developer from Bangladesh passionate about building clean, modern, and scalable web applications. I enjoy learning new technologies, contributing to open source, and using AI tools to build smarter software.
 
 - 💻 **I love building:** Modern web applications
 - 🚀 **Currently learning:** Next.js · Redux · TypeScript · PostgreSQL
@@ -27,7 +27,7 @@ Hi, I'm **Sristi Kundu**, a Frontend Developer from Bangladesh passionate about 
 
 </section>
 
-<section id="connect" align="left">
+<section id="connect" align="center">
 
 ## Connect
 
@@ -109,9 +109,9 @@ I use AI as a development partner to accelerate coding, debugging, architecture 
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sristikundu1/sristikundu1/gh-pages/github-streak-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sristikundu1/sristikundu1/gh-pages/github-streak.svg" />
-  <img width="680" src="https://raw.githubusercontent.com/sristikundu1/sristikundu1/gh-pages/github-streak.svg" alt="Sristi Kundu's GitHub contribution streak" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sristikundu1/sristikundu1/gh-pages/github-streak-dark.svg?v=2" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sristikundu1/sristikundu1/gh-pages/github-streak.svg?v=2" />
+  <img width="680" src="https://raw.githubusercontent.com/sristikundu1/sristikundu1/gh-pages/github-streak.svg?v=2" alt="Sristi Kundu's GitHub contribution streak" />
 </picture>
 
 ### Activity Graph
