@@ -4,7 +4,7 @@
 
 <img src="./assets/svg/banner.svg" width="100%" alt="Sristi Kundu — frontend developer profile banner" />
 
-# Hi, I'm **Sristi Kundu** <img src="./assets/images/waving-hand.gif" width="34" alt="Waving hand" />
+# Hi, I'm **Sristi Kundu** <img src="./assets/svg/waving-hand.svg" width="34" alt="Waving hand" />
 
 <img src="./assets/svg/hero-typing.svg" width="720" alt="Frontend Developer, Full Stack Learner, and AI Engineering Explorer" />
 
