@@ -25,6 +25,18 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
+      - name: Download light and dark contribution streak cards
+        shell: bash
+        run: |
+          curl --fail --location --retry 3 --retry-all-errors \
+            "https://streak-stats.demolab.com?user=${{ github.repository_owner }}&theme=default&hide_border=true&ring=0077B6&fire=00B4D8&currStreakLabel=0077B6" \
+            --output dist/github-streak.svg
+          curl --fail --location --retry 3 --retry-all-errors \
+            "https://streak-stats.demolab.com?user=${{ github.repository_owner }}&theme=github-dark-blue&hide_border=true&ring=00B4D8&fire=0077B6&currStreakLabel=00B4D8" \
+            --output dist/github-streak-dark.svg
+          grep --quiet "<svg" dist/github-streak.svg
+          grep --quiet "<svg" dist/github-streak-dark.svg
+
       - name: Publish generated SVGs to the output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:

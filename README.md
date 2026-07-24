@@ -8,10 +8,6 @@
 
 <img src="./assets/svg/hero-typing.svg" width="720" alt="Frontend Developer, Full Stack Learner, and AI Engineering Explorer" />
 
-<p>
-  <strong>Frontend Developer</strong> · Dhaka, Bangladesh
-</p>
-
 <img src="./assets/svg/divider.svg" width="100%" alt="" />
 
 </header>
@@ -22,24 +18,16 @@
 
 Hi, I'm **Sristi Kundu**, a Frontend Developer from Bangladesh passionate about building clean, modern, and scalable web applications. I enjoy learning new technologies, contributing to open source, and using AI tools to build smarter software.
 
-<table>
-  <tr>
-    <td>💻 <strong>I love building</strong><br />Modern web applications</td>
-    <td>🚀 <strong>Currently learning</strong><br />Next.js · Redux · TypeScript · PostgreSQL</td>
-  </tr>
-  <tr>
-    <td>💬 <strong>Ask me about</strong><br />React · JavaScript · Node.js · Express · MongoDB</td>
-    <td>🤖 <strong>Exploring</strong><br />AI-assisted software development</td>
-  </tr>
-  <tr>
-    <td>⚡ <strong>Fun fact</strong><br />I enjoy turning ideas into real products with AI-assisted development.</td>
-    <td>📫 <strong>Reach me</strong><br /><a href="mailto:sristikundu2468@gmail.com">sristikundu2468@gmail.com</a></td>
-  </tr>
-</table>
+- 💻 **I love building:** Modern web applications
+- 🚀 **Currently learning:** Next.js · Redux · TypeScript · PostgreSQL
+- 💬 **Ask me about:** React · JavaScript · Node.js · Express · MongoDB
+- 🧠 **Interested in:** AI-assisted software development and Full Stack Engineering
+- ⚡ **Fun fact:** I enjoy turning ideas into real products with AI-assisted development.
+- 📫 **Reach me:** [sristikundu2468@gmail.com](mailto:sristikundu2468@gmail.com)
 
 </section>
 
-<section id="connect" align="center">
+<section id="connect" align="left">
 
 ## Connect
 
@@ -55,7 +43,7 @@ Hi, I'm **Sristi Kundu**, a Frontend Developer from Bangladesh passionate about 
 
 ## Tech Stack
 
-<sub>Technologies I use to design, build, and ship modern applications.</sub>
+<p>Technologies I use to design, build, and ship modern applications.</p>
 
 <p>
   <img src="https://img.shields.io/badge/JavaScript-03045e?style=flat-square&amp;logo=javascript&amp;logoColor=F7DF1E" alt="JavaScript" />
@@ -90,12 +78,12 @@ Hi, I'm **Sristi Kundu**, a Frontend Developer from Bangladesh passionate about 
 ## AI-Assisted Development
 
 <p>
-  <img src="https://img.shields.io/badge/ChatGPT-0077b6?style=flat-square&amp;logo=openai&amp;logoColor=white" alt="ChatGPT" />
-  <img src="https://img.shields.io/badge/Claude-0077b6?style=flat-square&amp;logo=claude&amp;logoColor=white" alt="Claude" />
-  <img src="https://img.shields.io/badge/Codex-0077b6?style=flat-square&amp;logo=openai&amp;logoColor=white" alt="Codex" />
-  <img src="https://img.shields.io/badge/Gemini-0077b6?style=flat-square&amp;logo=googlegemini&amp;logoColor=white" alt="Gemini" />
-  <img src="https://img.shields.io/badge/Cursor-0077b6?style=flat-square&amp;logo=cursor&amp;logoColor=white" alt="Cursor" />
-  <img src="https://img.shields.io/badge/GitHub_Copilot-0077b6?style=flat-square&amp;logo=githubcopilot&amp;logoColor=white" alt="GitHub Copilot" />
+  <img height="28" src="./assets/svg/ai-chatgpt.svg" alt="ChatGPT" />
+  <img height="28" src="https://img.shields.io/badge/Claude-0077b6?style=flat-square&amp;logo=claude&amp;logoColor=white" alt="Claude" />
+  <img height="28" src="https://img.shields.io/badge/Codex-0077b6?style=flat-square&amp;logo=openai&amp;logoColor=white" alt="Codex" />
+  <img height="28" src="https://img.shields.io/badge/Gemini-0077b6?style=flat-square&amp;logo=googlegemini&amp;logoColor=white" alt="Gemini" />
+  <img height="28" src="https://img.shields.io/badge/Cursor-0077b6?style=flat-square&amp;logo=cursor&amp;logoColor=white" alt="Cursor" />
+  <img height="28" src="https://img.shields.io/badge/GitHub_Copilot-0077b6?style=flat-square&amp;logo=githubcopilot&amp;logoColor=white" alt="GitHub Copilot" />
 </p>
 
 I use AI as a development partner to accelerate coding, debugging, architecture planning, documentation, and code reviews. Every AI-generated solution is reviewed, tested, validated, and adapted before production.
@@ -112,6 +100,7 @@ I use AI as a development partner to accelerate coding, debugging, architecture 
     <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api?username=sristikundu1&amp;show_icons=true&amp;include_all_commits=true&amp;hide_border=true&amp;theme=default&amp;title_color=0077b6&amp;icon_color=00b4d8" />
     <img height="180" src="https://github-stats-extended.vercel.app/api?username=sristikundu1&amp;show_icons=true&amp;include_all_commits=true&amp;hide_border=true&amp;theme=default&amp;title_color=0077b6&amp;icon_color=00b4d8" alt="Sristi Kundu's GitHub statistics" />
   </picture>
+  <img src="./assets/svg/dashboard-separator.svg" width="12" height="150" alt="" />
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=sristikundu1&amp;layout=compact&amp;langs_count=8&amp;hide_border=true&amp;theme=github_dark&amp;title_color=00b4d8" />
     <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=sristikundu1&amp;layout=compact&amp;langs_count=8&amp;hide_border=true&amp;theme=default&amp;title_color=0077b6" />
@@ -120,15 +109,9 @@ I use AI as a development partner to accelerate coding, debugging, architecture 
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=sristikundu1&amp;theme=github-dark-blue&amp;hide_border=true&amp;ring=00B4D8&amp;fire=0077B6&amp;currStreakLabel=00B4D8" />
-  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=sristikundu1&amp;theme=default&amp;hide_border=true&amp;ring=0077B6&amp;fire=00B4D8&amp;currStreakLabel=0077B6" />
-  <img width="680" src="https://streak-stats.demolab.com?user=sristikundu1&amp;theme=default&amp;hide_border=true&amp;ring=0077B6&amp;fire=00B4D8&amp;currStreakLabel=0077B6" alt="Sristi Kundu's GitHub contribution streak" />
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-trophies.vercel.app/?username=sristikundu1&amp;theme=algolia&amp;no-frame=true&amp;no-bg=true&amp;margin-w=8&amp;row=1&amp;column=6" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-trophies.vercel.app/?username=sristikundu1&amp;theme=flat&amp;no-frame=true&amp;no-bg=true&amp;margin-w=8&amp;row=1&amp;column=6" />
-  <img width="100%" src="https://github-trophies.vercel.app/?username=sristikundu1&amp;theme=flat&amp;no-frame=true&amp;no-bg=true&amp;margin-w=8&amp;row=1&amp;column=6" alt="Sristi Kundu's GitHub trophies" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sristikundu1/sristikundu1/gh-pages/github-streak-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sristikundu1/sristikundu1/gh-pages/github-streak.svg" />
+  <img width="680" src="https://raw.githubusercontent.com/sristikundu1/sristikundu1/gh-pages/github-streak.svg" alt="Sristi Kundu's GitHub contribution streak" />
 </picture>
 
 ### Activity Graph
@@ -150,8 +133,6 @@ I use AI as a development partner to accelerate coding, debugging, architecture 
 </section>
 
 <footer align="center">
-
-<img src="./assets/svg/wave.svg" width="100%" height="72" alt="" />
 
 <sub>Building thoughtful web experiences today, growing toward full-stack and AI engineering.</sub>
 
