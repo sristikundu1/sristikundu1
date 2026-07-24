@@ -78,12 +78,12 @@ A Frontend Developer from Bangladesh passionate about building clean, modern, an
 ## AI-Assisted Development
 
 <p>
-  <img height="28" src="./assets/svg/ai-chatgpt.svg" alt="ChatGPT" />
-  <img height="28" src="https://img.shields.io/badge/Claude-0077b6?style=flat-square&amp;logo=claude&amp;logoColor=D97757" alt="Claude" />
-  <img height="28" src="./assets/svg/ai-codex.svg" alt="Codex" />
-  <img height="28" src="https://img.shields.io/badge/Gemini-0077b6?style=flat-square&amp;logo=googlegemini&amp;logoColor=8E75B2" alt="Gemini" />
-  <img height="28" src="https://img.shields.io/badge/Cursor-0077b6?style=flat-square&amp;logo=cursor&amp;logoColor=000000" alt="Cursor" />
-  <img height="28" src="https://img.shields.io/badge/GitHub_Copilot-0077b6?style=flat-square&amp;logo=githubcopilot&amp;logoColor=181717" alt="GitHub Copilot" />
+  <img height="36" src="./assets/svg/ai-chatgpt.svg" alt="ChatGPT" />
+  <img height="36" src="./assets/svg/ai-claude.svg" alt="Claude" />
+  <img height="36" src="./assets/svg/ai-codex.svg" alt="Codex" />
+  <img height="36" src="./assets/svg/ai-gemini.svg" alt="Gemini" />
+  <img height="36" src="./assets/svg/ai-cursor.svg" alt="Cursor" />
+  <img height="36" src="./assets/svg/ai-copilot.svg" alt="GitHub Copilot" />
 </p>
 
 I use AI as a development partner to accelerate coding, debugging, architecture planning, documentation, and code reviews. Every AI-generated solution is reviewed, tested, validated, and adapted before production.
