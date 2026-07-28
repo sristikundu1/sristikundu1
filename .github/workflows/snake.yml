@@ -28,14 +28,89 @@ jobs:
       - name: Download light and dark contribution streak cards
         shell: bash
         run: |
-          curl --fail --location --retry 3 --retry-all-errors \
-            "https://streak-stats.demolab.com?user=${{ github.repository_owner }}&theme=default&hide_border=true&ring=0077B6&fire=00B4D8&currStreakLabel=0077B6" \
-            --output dist/github-streak.svg
-          curl --fail --location --retry 3 --retry-all-errors \
-            "https://streak-stats.demolab.com?user=${{ github.repository_owner }}&theme=github-dark-blue&hide_border=true&ring=00B4D8&fire=0077B6&currStreakLabel=00B4D8" \
-            --output dist/github-streak-dark.svg
-          grep --quiet "<svg" dist/github-streak.svg
-          grep --quiet "<svg" dist/github-streak-dark.svg
+          set -euo pipefail
+
+          is_valid_streak() {
+            local file="$1"
+
+            test -s "$file" &&
+              grep --quiet "<svg" "$file" &&
+              grep --quiet "Current Streak" "$file" &&
+              ! grep --ignore-case --extended-regexp --quiet \
+                "Failed to retrieve contributions|Error Fetching Resource|Something went wrong" \
+                "$file"
+          }
+
+          restore_previous_streak() {
+            local filename="$1"
+            local output="dist/$filename"
+            local previous
+            previous="$(mktemp)"
+
+            if curl --fail --silent --show-error --location \
+              --connect-timeout 10 \
+              --max-time 30 \
+              "https://raw.githubusercontent.com/${{ github.repository }}/gh-pages/${filename}?run=${{ github.run_id }}" \
+              --output "$previous" &&
+              is_valid_streak "$previous"; then
+              mv "$previous" "$output"
+              echo "Restored the last known-good $filename."
+              return 0
+            fi
+
+            rm -f "$previous"
+            return 1
+          }
+
+          download_streak() {
+            local theme="$1"
+            local filename="$2"
+            local colors="$3"
+            local output="dist/$filename"
+            local candidate
+
+            restore_previous_streak "$filename" || true
+
+            for attempt in 1 2 3 4; do
+              candidate="$(mktemp)"
+              echo "Downloading $theme streak card (attempt $attempt of 4)."
+
+              if curl --fail --silent --show-error --location \
+                --connect-timeout 10 \
+                --max-time 30 \
+                --retry 1 \
+                --retry-all-errors \
+                "https://streak-stats.demolab.com?user=${{ github.repository_owner }}&theme=${theme}&hide_border=true&${colors}&cacheBust=${{ github.run_id }}-${attempt}" \
+                --output "$candidate" &&
+                is_valid_streak "$candidate"; then
+                mv "$candidate" "$output"
+                echo "Validated a fresh $theme streak card."
+                return 0
+              fi
+
+              rm -f "$candidate"
+              echo "::warning::The provider returned an invalid $theme streak card."
+              sleep $((attempt * 3))
+            done
+
+            if is_valid_streak "$output"; then
+              echo "::warning::Refresh failed; keeping the last known-good $theme streak card."
+              return 0
+            fi
+
+            echo "::error::No valid $theme streak card or backup is available."
+            return 1
+          }
+
+          download_streak \
+            "default" \
+            "github-streak.svg" \
+            "ring=0077B6&fire=00B4D8&currStreakLabel=0077B6"
+
+          download_streak \
+            "github-dark-blue" \
+            "github-streak-dark.svg" \
+            "ring=00B4D8&fire=0077B6&currStreakLabel=00B4D8"
 
       - name: Publish generated SVGs to the output branch
         uses: crazy-max/ghaction-github-pages@v4
